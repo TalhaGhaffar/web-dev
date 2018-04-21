@@ -54,6 +54,8 @@
   padding-right: 0;
 }
 
+/* Code used from Udacity Lecture RWDF L5 Solution */
+
 .news {
   width: 100%;
   position: relative;
@@ -237,4 +239,5 @@ Sign-in modal
 .modal-title {
   text-align: center;
   height: 50px;
+  color: gray;
 }
