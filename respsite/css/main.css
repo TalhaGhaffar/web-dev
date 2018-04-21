@@ -1,0 +1,240 @@
+.carousel-inner > .item {
+  max-width: 100%;
+  min-height: 100px;
+}
+
+@media screen and (min-width: 611px) {
+  .carousel-inner {
+    width:100%;
+    height: 300px;
+  }
+}
+
+.sign_in_or_sign_up {
+  border-left:0.5px solid grey;
+  margin-top: 7px;
+}
+
+.sign-up-btn {
+  padding: 0;
+}
+
+.sign-up-btn span {
+  padding-right: 0px;
+  padding-left: 15px;
+  color: white;
+}
+
+.sign_in_or_sign_up__or {
+  padding-left: 0;
+  padding-right: 0;
+  color: gray;
+}
+
+.sign-in-btn span {
+  padding-left: 0px;
+  color: white;
+}
+
+.sign-in-btn {
+  padding-left: 0;
+  margin-right: 10px;
+}
+
+
+/* #crslmain {
+  position: relative;
+  top: 10px;
+} */
+
+.articles__main {
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.news {
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  min-height: 300px;
+}
+
+
+
+.news article {
+  box-sizing: border-box;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  padding: 1em;
+}
+
+
+.hero__article__bg_img_pl {
+  background-image: url("../img/sports/pl2.jpg");
+  background-size: 100% 100%;
+}
+
+.hero__article__bg_img_cat {
+  background-image: url("../img/cat1.jpg");
+  background-size: contain;
+}
+
+.hero__article__bg_img_ars {
+  background-image: url("../img/sports/arsenal.JPG");
+  background-size: 100% 100%;
+}
+
+.hero__article__bg_img_earth {
+  background-image: url("../img/space/earth2.jpg");
+  background-size: contain;
+}
+
+.contact {
+  /* position: relative; */
+  /* margin-top: 20px; */
+  /* width: 100%; */
+  max-width: 768px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 20px;
+}
+
+
+/**
+Long Article
+*/
+.container_article {
+  padding-top: 10px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.long__article {
+  width: 100%;
+  padding-top: 20px;
+  background-color: #fafafa;
+}
+
+.contact_form_label {
+  text-align: right;
+}
+
+.article_image {
+  margin-right: 15px;
+  width: 600px;
+  min-height: 340px;
+}
+
+/**
+Contact Form
+*/
+
+
+
+/**
+footers
+*/
+
+.footer {
+  /* padding-top: 20px; */
+  position: relative;
+  background-color: #3C4162;
+  border-top: 1px solid #E0E0E0;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
+}
+
+.footer li {
+  display: block;
+  text-align: center;
+  /* margin: 0 1em; */
+}
+
+ .footer a {
+  color: #fafafa;
+}
+
+.footer__services__header {
+  text-transform: uppercase;
+  color: #fafafa;
+}
+
+.footer__services__text {
+  font-size: 1em;
+  color: #fafafa;
+}
+
+.footer_service_list {
+  font-size: 1em;
+}
+
+
+/**
+Bottom Footer
+*/
+
+.footer__bottom {
+  background-color: #030432;
+  padding: 1em;
+  text-align: center;
+  font-size: 1em;
+  bottom: 0px;
+}
+.footer__bottom li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 1em;
+}
+
+.footer__bottom a {
+  color: #fafafa;
+  padding: 2em;
+}
+
+
+/**
+Footer copyright
+*/
+.footer__copyright {
+  border-top: black;
+  background-color: #030432;
+  /* padding: 1em; */
+  text-align: center;
+  font-size: 1em;
+  bottom: 0px;
+}
+
+.copyright_text {
+  color: gray;
+  text-align: center;
+  /* padding: 2em; */
+}
+
+@media screen and (min-width: 768px) {
+  .faq {
+
+  }
+}
+
+
+
+/**
+Sign-in modal
+*/
+
+.modal-dialog {
+  max-width: 400px;
+}
+
+.modal-title {
+  text-align: center;
+  height: 50px;
+}
