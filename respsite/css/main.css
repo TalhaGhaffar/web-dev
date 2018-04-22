@@ -129,8 +129,8 @@ Long Article
 
 .article_image {
   margin-right: 15px;
-  width: 600px;
-  min-height: 340px;
+  max-width: 600px;
+  max-height: 340px;
 }
 
 /**
